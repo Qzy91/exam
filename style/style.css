@@ -43,8 +43,22 @@ a{
 	text-align: center;
 }
 
+.cursor-pointer{
+	cursor: pointer;
+}
+
+/*colors*/
+
 .color-broun{
 	color: #c7b299;
+}
+
+.color-links{
+	color: #959595;
+}
+
+.color-blue{
+	color: #00bff3; 
 }
 
 .global_btn button{
@@ -57,7 +71,7 @@ a{
 	border:none;
 	border-radius: 5px;
 	color:#fff !important;
-	background: #000;
+	background: #998675;
 	border-bottom: 4px solid #736357;
 }
 
@@ -495,9 +509,179 @@ a{
 .partners {
 	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../image/partners_bg.jpg');
 	height: 100vh;
+	min-height: 1224px;
 	background-repeat: no-repeat !important;
 	background-size: cover !important;	
 	color: #fff !important;
 	text-align: center;
 }
 
+/*CONTENT*/
+.content{
+	background: #191919;
+	font-size: 13px;
+	color: #555555;
+
+}	
+
+.content__title{
+	font-size: 24px;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	height: 56px;
+}
+
+.content__publication{
+	
+	padding: 20px 0 20px 0;
+}
+
+.border-b{
+	border-bottom: 1px solid #555555;
+}
+
+.content__date{
+	font-size: 12px;
+	color: #363636;
+}
+
+
+footer{
+	background: #111;
+	font-size: 13px;
+	color: #555555;
+}
+
+@media screen and (max-width: 576px){
+.menu_icon{
+	opacity: 0;
+}	
+	.nav-link{
+		padding: 0 !important;
+	}
+.pred-title{
+	padding-top:220px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+
+}
+
+.title{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 23px;
+	padding: 8px 0 8px 0;
+}
+
+.head__text{
+	margin-bottom: 12px;
+}
+
+.last-projects__item{
+	margin: 0;
+}
+	.waxom__slider{
+	justify-content: center;
+	text-align: center;	
+	position: static;
+	width: 100%;
+	height: auto;
+	flex-direction: column;
+}
+
+.waxom__left{
+	position: static;
+	width: 300px;
+}
+
+.waxom__center{
+	position: static;
+	width: 300px;
+}
+.waxom__right{
+	position: static;
+	width: 300px;
+}
+
+.text-boxes {
+	height: auto;
+	margin-top: 20px;
+}
+
+
+.last-projects__filtr{
+	flex-wrap: wrap;
+}
+
+
+.section-mobile img{
+	width: 100%;
+}
+.last-projects__img img{
+	width: 280px;
+}
+
+.post__item{
+	width: 285px;
+}
+
+.counters-line{
+	height: auto;
+}
+
+
+}
+
+
+
+/*IPAD*/
+
+@media screen and (max-width: 768px){
+
+.menu_icon{
+	opacity: 0;
+}		
+
+.pred-title{
+	padding-top:220px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+
+}
+	
+	.waxom__slider{
+	position: static;
+	width: 100%;
+	height: auto;
+	flex-direction: column;
+}
+
+.waxom__left{
+	position: static;
+	width: 690px;
+}
+
+.waxom__center{
+	position: static;
+	width: 690px;
+}
+.waxom__right{
+	position: static;
+	width: 690px;
+}
+
+.text-boxes{
+	height: 170px;
+}
+
+.last-projects__item{
+	height: 370px;
+	width: 310px;
+	background: #fbfaf8;
+	margin: 15px;
+	transition: 0.2s all linear;
+
+}
+}
